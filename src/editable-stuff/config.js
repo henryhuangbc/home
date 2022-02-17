@@ -103,23 +103,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 70 },
+    { name: "SQL", value: 10 },
+    { name: "Lua", value: 40 },
+    { name: "C/C++", value: 5 },
+    { name: "JavaScript", value: 100 },
+    { name: "React", value: 15 },
+    { name: "HTML/CSS", value: 70 },
+    { name: "C#", value: 0 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Goal Orientation", value: 70 },
+    { name: "Collaboration", value: 80 },
+    { name: "Positivity", value: 70 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Problem Solving", value: 80 },
+    { name: "Empathy", value: 95 },
+    { name: "Organization", value: 5 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -129,8 +129,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Say bonjour!",
+  email: "space.galaxy.world@gmail.com",
 };
 
 const experiences = {
@@ -138,14 +138,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Frontend Developer',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'June 2020 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Backend Developer',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'May 2021 – Jun 2021',
     },
   ]
 }
